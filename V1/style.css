@@ -1,0 +1,164 @@
+body {
+    background-color: white!important;
+}
+
+.jumbotron {
+    background-color: grey;
+    color: white;
+}
+
+.navbar {
+    background-color: darkgrey;
+}
+
+.btn-primary {
+    background-color: grey!important;
+    border: none!important;
+    border-radius: 0!important;
+}
+
+.card, .card-img-top {
+    border-radius:0!important;
+}
+
+.nav-link-white {
+    color: white!important;
+}
+
+.active {
+    background-color: darkgrey!important;
+}
+
+.tab-pane {
+    background-color: transparent!important;
+}
+
+
+.nav-link {
+    border: none!important;
+    border-radius: 0!important;
+}
+
+@media (max-width: 750px) {
+  #kunde-tabs {
+    height: 350px!important;
+  }
+}
+
+@media (min-width: 750px) {
+  #kunde-tabs {
+    height: 250px!important;
+  }
+}
+
+
+
+@media (max-width: 750px) {
+  #om-mig {
+    height: 550px!important;
+  }
+}
+
+@media (min-width: 750px) {
+  #om-mig2 {
+    height: 415px!important;
+  }
+}
+
+
+
+@media (max-width: 750px) {
+  #test {
+    height: 150px!important;
+  }
+}
+
+
+#webfooter { 
+    margin-bottom: 0;
+}
+
+@media (max-width: 750px) {
+  .display-3-edit-sm {
+    font-size: 40px!important;
+  }
+}
+
+@media (max-width: 750px) {
+  .display-4-edit-sm {
+    font-size: 37px;
+  }
+}
+
+.footer-text {
+    margin: 0px;
+}
+
+@media (max-width: 750px) {
+  .footer-text-last {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-section {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+.footer-icons {
+    width: 50px;
+}
+
+.footer-section-text-heading {
+    font-size: 20px;
+}
+
+.page-headline-box {
+    height: 250px!important;
+}
+
+.jumbotron-border-edit {
+    border-style: solid;
+    border-color: darkgrey;
+    border-width: 5px;
+    background-color: transparent;
+}
+@media (min-width: 750px) {
+  .page-headline-box-home {
+    height: 325px
+  }
+}
+
+@media (min-width: 750px) {
+    .card-frontpage {
+        height: 400px;
+    }
+}
+
+@media (min-width: 750px) {
+    .card-frontpage-buttom {
+    border-top: 400px;
+    }
+}
+
+.contact-card-subject {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.card-contact {
+    margin-top: 45px;
+    margin-bottom: 55px;
+    height: 400px!important;
+}
+.contact-card-lead {
+    margin-top 0px!important;
+    padding-top: 0px!important;
+    padding-bottom: 0px!important;
+    margin-bottom: 0px!important;
+    margin-bottom: 0px!important;
+}
