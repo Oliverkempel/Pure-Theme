@@ -3,4 +3,48 @@
     margin-left: 0px;
     margin-right: 0px;
     color: #ffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-light {
+    color: #ffff;
+} 
+
+.none-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#home-welcome-jumbo {
+    height: auto;
+
+}
+
+#home-welcome-jumbo-text {
+    
+    color: #E87817;
+}
+
+/*text-horizontal-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}*/
+
+#home-second-jumbo {
+    height: 400px;
+    background-color: #E87817;
+}
+#home-second-jumbo-text {
+    
+}
+
+.img-welcome {
+    max-width: 100%;
+}
+
+#test {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
