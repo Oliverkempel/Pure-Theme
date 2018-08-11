@@ -1,3 +1,23 @@
+/* Custom button */
+.btn-custom {
+    color: #fff;
+    background-color: #E87817;
+    border-color: #E87817;
+  }
+  .btn-custom:hover {
+    color: #fff;
+    background-color: #ff9900;
+    border-color: #ff9900;
+  }
+  .btn-custom:focus, .btn-custom.focus {
+    color: #fff;
+    background-color: #ff9900;
+    border-color: #ff9900;
+  }
+
+
+
+ /* Navbar Custom Styles */
 .navbar-custom {
     background-color: #ff9900;
     margin-left: 0px;
@@ -6,44 +26,51 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.navbar-light {
-    color: #ffff;
-} 
 
-.none-padding {
+
+.no-padding-body-fix {
     padding-left: 0px;
     padding-right: 0px;
 }
 
+
+
+/* Home Page Welcome Jumbotron Styles */
 #home-welcome-jumbo {
-    height: auto;
-
-}
-
-#home-welcome-jumbo-text {
-    color: #E87817;
-}
-
-/*text-horizontal-center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-}*/
-
-#home-second-jumbo {
-    height: 400px;
-    background-color: #E87817;
-}
-#home-second-jumbo-text {
-    
+    height: 850px;
+    background-image: url('Img/home-bg.jpg'); 
+    background-size: cover;
+    margin-bottom: 0px;
 }
 
 .img-welcome {
     max-width: 100%;
 }
 
-#test {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+#home-welcome-title {
+    font-size: 60px;
+    color: #E87817;
+}
+
+#home-welcome-lead {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home-welcome-info-jumbotron-insides {
+    padding-top: 40px;
+}
+
+#home-welcome-info-jumbotron {
+    padding-top: 200px;
+}
+
+
+
+/* Home Page Second Jumbotron styles */
+#home-second-jumbo {
+    height: 400px;
+    background-color: #E87817 !important;
+}
+#home-second-jumbo-text {
+    
 }
